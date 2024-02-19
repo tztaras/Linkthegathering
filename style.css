@@ -24,4 +24,9 @@ body {
     background-color: aliceblue;
     border: 1px solid black;
     margin: 3px;
+    color: azure;
+}
+
+#strava {
+    background-color: orangered;
 }
