@@ -4,20 +4,21 @@ body {
 
 
 .content {
-    display: flex;
-    max-width: fit-content;
-    /* width: 600px; */
+    /* display: flex;
+    max-width: fit-content; */
+    width: 1000px;
     background-color: rgb(164, 180, 180);
 }
 
 .photobox {
     /* width: 200px; */
     background: orangered;
+
 }
 
 .linkblock {
-    /* max-width: 500px;
-    min-width: 300px; */
+    /* max-width: 500px; */
+    min-width: 300px;
     background-color: rgb(228, 223, 223);
     border: 1px solid black;
 }
@@ -30,10 +31,20 @@ body {
     margin: 3px;
     color: azure;
     text-align: center;
+    min-width: 300px;
+    min-height: 20px;
 }
 
 #strava {
     background-color: orangered;
+    box-shadow: inset 0 0 3px 1px rgb(175, 79, 0);
+    min-width: 300px;
+
+}
+
+#strava:hover {
+    cursor: pointer;
+    transform: scale(1.002);
 }
 
 #strava>a,
@@ -45,7 +56,7 @@ body {
 }
 
 #insta {
-    background: linear-gradient(8deg, rgb(49, 49, 255), rgb(225, 0, 255), red, #f56539 40%, yellow, #ffda5f);
+    background: linear-gradient(177deg, rgb(111, 49, 255), rgb(132, 0, 255), rgb(207, 15, 255), rgb(255, 14, 14), #f36235, rgb(231, 231, 0), #ecca58);
 }
 
 #github {
