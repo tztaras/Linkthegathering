@@ -1,3 +1,27 @@
 body {
     background-color: gainsboro;
 }
+
+/* 
+.container {
+    display: flex;
+    width: 1000px;
+    background-color: aqua;
+} */
+
+/* .photobox {
+    width: 300px;
+    background: orangered;
+} */
+
+.linkblock {
+    width: 700px;
+    background-color: rgb(228, 223, 223);
+}
+
+.link {
+    width: 500px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 3px;
+}
