@@ -3,10 +3,11 @@ html body {
     margin: 0;
     padding: 0;
     background-color: cadetblue;
-    box-shadow: inset 0 0 20px 2px black;
+    box-shadow: inset 0 0 80px 20px rgb(54, 54, 54);
 }
 
 .container {
+    padding-top: 60px;
     margin: 0 auto;
 }
 
@@ -18,7 +19,8 @@ html body {
 }
 
 h1 {
-    margin: 0 0 0 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .photobox {
@@ -48,16 +50,22 @@ h1 {
     align-items: center;
     min-width: 500px;
     min-height: 40px;
-    box-shadow: 0px 0px 5px 2px rgb(83, 78, 78);
+    box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
     font-size: 25px;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+}
+
+.link:hover {
+    transform: scale(1.005);
+    opacity: 0.9;
 }
 
 #strava {
     background-color: orangered;
 
-    box-shadow: 0px 0px 5px 2px rgb(83, 78, 78);
+    box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
     min-width: 300px;
     text-shadow: 1px 1px 4px #111111;
 
@@ -70,10 +78,10 @@ a {
     text-decoration: none;
 }
 
-#strava:hover {
+/* #strava:hover {
     cursor: pointer;
     transform: scale(1.002);
-}
+} */
 
 #strava>a,
 #insta>a,
@@ -90,14 +98,18 @@ a {
 
 #github {
     background: rgb(246, 248, 250);
+    color: #111111;
+    box-shadow: 0px 0px 5px 1px rgb(197, 197, 197);
+    border: 1px solid rgb(190, 190, 190);
 
 }
 
 #github>a {
-    color: black;
+    color: rgb(24, 24, 24);
     text-decoration: none;
 }
 
 #facebook {
-    background: rgb(8, 102, 255);
+    background: rgb(59, 89, 152);
+    border: 1px solid rgb(179, 179, 179);
 }
