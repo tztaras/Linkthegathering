@@ -1,45 +1,73 @@
-body {
-    background-color: gainsboro;
+html body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    box-shadow: inset 0 0 20px 2px black;
 }
 
+.container {
+    margin: 0 auto;
+}
 
 .content {
-    /* display: flex;
-    max-width: fit-content; */
-    width: 1000px;
-    background-color: rgb(164, 180, 180);
+    margin: 0 auto;
+    max-width: fit-content;
+    /* background-color: rgb(164, 180, 180); */
+
+}
+
+h1 {
+    margin: 0 0 0 0;
 }
 
 .photobox {
-    /* width: 200px; */
+    width: 200px;
     background: orangered;
 
 }
 
 .linkblock {
-    /* max-width: 500px; */
-    min-width: 300px;
-    background-color: rgb(228, 223, 223);
-    border: 1px solid black;
+    max-width: fit-content;
+    min-width: fit-content;
+    /* background-color: rgb(228, 223, 223); */
+    /* border: 1px solid black; */
+    /* box-shadow: 0px 0px 5px 1px rgb(83, 78, 78); */
 }
 
 .link {
 
     /* max-width: 500px; */
-    background-color: aliceblue;
-    border: 1px solid black;
-    margin: 3px;
-    color: azure;
-    text-align: center;
-    min-width: 300px;
-    min-height: 20px;
+
+    border: 1px solid rgb(87, 84, 84);
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    /* /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    min-height: 40px;
+    box-shadow: 0px 0px 5px 2px rgb(83, 78, 78);
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #strava {
     background-color: orangered;
-    box-shadow: inset 0 0 3px 1px rgb(175, 79, 0);
-    min-width: 300px;
 
+    box-shadow: 0px 0px 5px 2px rgb(83, 78, 78);
+    min-width: 300px;
+    text-shadow: 1px 1px 4px #111111;
+
+    /* margin-bottom: 5px; */
+
+
+}
+
+a {
+    text-decoration: none;
 }
 
 #strava:hover {
@@ -50,12 +78,13 @@ body {
 #strava>a,
 #insta>a,
 #facebook>a {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 
 }
 
 #insta {
+    text-shadow: 1px 1px 4px #111111;
     background: linear-gradient(177deg, rgb(111, 49, 255), rgb(132, 0, 255), rgb(207, 15, 255), rgb(255, 14, 14), #f36235, rgb(231, 231, 0), #ecca58);
 }
 
