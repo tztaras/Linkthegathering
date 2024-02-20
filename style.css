@@ -49,11 +49,11 @@ h1 {
     margin: 10px;
     color: rgb(255, 255, 255);
     display: flex;
-    /* /* text-align: center; */
+
     justify-content: center;
     align-items: center;
     min-width: 500px;
-    min-height: 40px;
+    min-height: 45px;
     box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
     font-size: 25px;
     font-weight: 900;
