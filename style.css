@@ -1,6 +1,7 @@
 html body {
     height: 100vh;
-    /* width: 100vh; */
+    width: auto;
+
 
 
 
@@ -8,14 +9,16 @@ html body {
     padding: 0;
     background: rgb(67, 137, 139);
     box-shadow: inset 0 0 80px 20px rgb(54, 54, 54);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 
 .container {
+    /* width: 100%; */
 
-    /* height: 100vw; */
+    /* height: max-content; */
     padding-top: 140px;
-    margin: 0 auto;
+    /* box-shadow: inset 0 0 80px 20px rgb(54, 54, 54); */
+    /* margin: 0 auto; */
 
 
 
@@ -163,7 +166,9 @@ a {
 
 @media (max-width:775px) {
     body {
-        height: 100vw;
+
+        height: -webkit-fill-available;
+        max-width: auto;
 
     }
 
@@ -175,10 +180,11 @@ a {
     }
 
     .link {
+
         max-width: 180px;
         margin-left: 23px;
-        /* min-width: 200px; */
-        /* min-width: fit-content; */
+
+
     }
 
     .cat>img {
