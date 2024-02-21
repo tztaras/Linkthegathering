@@ -51,10 +51,13 @@ h1 {
     /* height: auto; */
     rotate: -12deg;
     position: relative;
-    right: 20%;
+    right: 25%;
 }
 
 .linkblock {
+
+    position: relative;
+    left: 42%;
     margin: 20px 0 0 0;
     border: 5px dotted rgb(255, 255, 255);
     border-radius: 36% 19% 44% 10% / 35% 70% 25% 4%;
@@ -67,12 +70,14 @@ h1 {
     margin: 10px;
     color: rgb(255, 255, 255);
     display: flex;
+    width: 220px;
+    height: 40px;
 
     justify-content: center;
     align-items: center;
 
     box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 25px;
