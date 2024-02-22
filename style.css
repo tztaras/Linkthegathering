@@ -93,6 +93,10 @@ h1 {
 
 }
 
+.link>img {
+    height: 80%;
+}
+
 .link:hover {
     transform: scale(1.005);
     opacity: 0.9;
@@ -140,6 +144,8 @@ a {
     text-shadow: 1px 1px 4px #111111;
     background: linear-gradient(177deg, rgb(111, 49, 255), rgb(132, 0, 255), rgb(207, 15, 255), rgb(255, 14, 14), #f36235, rgb(231, 231, 0), #ecca58);
 }
+
+
 
 #github {
     background: rgb(246, 248, 250);
