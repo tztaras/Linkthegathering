@@ -21,21 +21,26 @@ html body {
     flex: 1 1 auto;
 }
 
+.header {
+    height: 150px;
+}
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
 }
 
 h1 {
     margin: auto;
-    padding-top: 10%;
+    padding-top: 80px;
     text-align: center;
     color: aliceblue;
     text-shadow: 1px 2px 5px #000000;
     /* responsive font */
-    font-size: clamp(32px, 4vw, 42px);
+    /* font-size: clamp(32px, 4vw, 42px); */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -50,38 +55,46 @@ h1 {
     max-width: 200px;
     /* height: auto; */
     rotate: -12deg;
-    position: relative;
-    right: 25%;
+    /* position: relative;
+    left: 20%; */
 }
 
 .linkblock {
 
-    position: relative;
-    left: 42%;
-    margin: 20px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 20px 20px 20px 20px;
     border: 5px dotted rgb(255, 255, 255);
     border-radius: 36% 19% 44% 10% / 35% 70% 25% 4%;
-    padding: 35px;
-    width: max-content;
+    padding: 35px 10%;
+    /* padding-left: 10%; */
+    gap: 10px;
+    /* max-width: 500px; */
+    /* width: max-content; */
+
+
 }
 
 .link {
     border: 1px solid rgb(87, 84, 84);
-    margin: 10px;
+    margin: 0px 10px;
     color: rgb(255, 255, 255);
     display: flex;
-    width: 220px;
+    /* width: 500px; */
+    min-width: 143px;
     height: 45px;
-
     justify-content: center;
     align-items: center;
-
     box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
     font-size: 20px;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 25px;
-    /* padding-bottom: 3px; */
+    padding-bottom: 3px;
+
 }
 
 .link:hover {
@@ -110,6 +123,7 @@ h1 {
 
 a {
     text-decoration: none;
+    max-width: 500px;
 }
 
 /* #strava:hover {
@@ -151,10 +165,40 @@ a {
     text-shadow: none;
 }
 
-@media (max-width:900px) {
+/* @media (max-width:780px) {
+
+
+
+
+
     .linkblock {
+
+        position: relative;
+        left: 42%;
+        margin: 20px 0 0 0;
+        border: 5px dotted rgb(255, 255, 255);
         border-radius: 50% 20% 44% 18% / 35% 70% 40% 5%;
+        padding: 35px;
+        max-width: 100%;
     }
 
+    .link {
+        border: 1px solid rgb(87, 84, 84);
+        margin: 10px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        width: 100%;
+        height: 45px;
 
-}
+        justify-content: center;
+        align-items: center;
+
+        box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
+        font-size: 20px;
+        font-weight: 900;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 25px;
+        padding-bottom: 3px;
+    }
+
+} */
