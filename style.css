@@ -8,7 +8,7 @@ html body {
 
 .wrapper {
 
-    height: fit-content;
+    height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@ h1 {
 
 
 .cat {
-    height: 250px;
+    height: auto;
 }
 
 .cat>img {
@@ -118,7 +118,7 @@ h1 {
 
 a {
     text-decoration: none;
-    max-width: 500px;
+    width: max-content;
 }
 
 /* #strava:hover {
