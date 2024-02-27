@@ -140,43 +140,6 @@ a {
     text-shadow: none;
 }
 
-@media (max-width:375px) {
-
-    .wrapper {
-        overflow: visible;
-    }
-
-    .link {
-        font-size: 16px;
-        height: 28px;
-    }
-
-    .cat>img {
-        max-width: 150px;
-    }
-}
-
-
-@media (max-height:783px) {
-
-    .wrapper {
-        height: 100vh;
-        overflow: auto;
-    }
-
-    .header {
-        height: 80px;
-    }
-
-    h1 {
-        padding-top: 40px;
-    }
-
-    .link {
-        font-size: 18px;
-        height: 30px;
-    }
-}
 
 .boxforsmoke {
     /* margin-left: -65px;
@@ -294,4 +257,54 @@ a {
         transform: scale(0.3) translate(20px, -340px);
     }
 
+}
+
+
+@media (max-width:375px) {
+
+    .wrapper {
+        overflow: visible;
+    }
+
+    .link {
+        font-size: 16px;
+        height: 28px;
+    }
+
+    .cat>img {
+        max-width: 150px;
+    }
+
+    .boxforsmoke {
+
+        margin-left: -47px;
+        transform: translateY(-12%);
+
+        overflow: hidden;
+
+
+
+    }
+}
+
+
+@media (max-height:783px) {
+
+    .wrapper {
+        height: 100vh;
+        overflow: auto;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    h1 {
+        padding-top: 40px;
+    }
+
+    .link {
+        font-size: 18px;
+        height: 30px;
+    }
 }
