@@ -179,14 +179,18 @@ a {
 }
 
 .boxforsmoke {
-    position: relative;
+    position: absolute;
+    /* bottom: 28%; */
+    left: 28%;
+    /* position: relative;
+    bottom: 50%;
+    left: 50%; */
 
-    /* left: 30%; */
     background-color: none;
     border: 1px solid rgb(255, 255, 255);
-    /* overflow: hidden; */
+    overflow: hidden;
     height: 100px;
-    width: 80px;
+    width: 130px;
 
 }
 
@@ -196,7 +200,7 @@ a {
     width: 1px;
     height: 80px;
     /* left: 50%; */
-    bottom: -47%;
+    bottom: -37%;
     transform: rotate(25deg);
 }
 
