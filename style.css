@@ -37,7 +37,7 @@ h1 {
     color: aliceblue;
     text-shadow: 1px 2px 5px #000000;
     /* responsive font */
-    font-size: clamp(26px, 4vw, 42px);
+    font-size: clamp(30px, 4vw, 42px);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -70,7 +70,7 @@ h1 {
     color: rgb(255, 255, 255);
     display: flex;
     min-width: 143px;
-    height: 45px;
+    height: 55px;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
