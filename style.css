@@ -37,7 +37,7 @@ h1 {
     color: aliceblue;
     text-shadow: 1px 2px 5px #000000;
     /* responsive font */
-    font-size: clamp(26px, 4vw, 42px);
+    font-size: clamp(30px, 4vw, 42px);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -70,11 +70,11 @@ h1 {
     color: rgb(255, 255, 255);
     display: flex;
     min-width: 143px;
-    height: 45px;
+    height: 55px;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 25px;
@@ -299,12 +299,16 @@ a {
         height: 80px;
     }
 
+    .container {
+        max-width: 730px;
+    }
+
     h1 {
         padding-top: 40px;
     }
 
     .link {
-        font-size: 18px;
-        height: 30px;
+        font-size: 20px;
+        height: 37px;
     }
 }
