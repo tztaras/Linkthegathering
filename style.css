@@ -58,7 +58,7 @@ h1 {
 
 
 .linkblock {
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
     border: 6px dotted rgb(255, 255, 255);
     border-radius: 29% 20% 44% 29% / 31% 70% 25% 36%;
     padding: 35px 10%;
@@ -76,9 +76,12 @@ h1 {
     box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
     font-size: 28px;
     font-weight: 900;
+    line-height: 1.9;
+    letter-spacing: 2px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 25px;
-    /* padding-bottom: 3px; */
+    transition: opacity 5ms;
+
 }
 
 .link>img {
@@ -90,6 +93,11 @@ h1 {
     opacity: 0.9;
 }
 
+.link:active {
+    border: 1px solid rgb(255, 255, 255) !important;
+
+}
+
 #strava {
     box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
     text-shadow: 1px 1px 4px #111111;
@@ -98,8 +106,8 @@ h1 {
 
 #lkd {
     background: rgb(10, 102, 194);
-    box-shadow: 0px 0px 5px 1px rgb(9, 13, 240);
-    border: navy;
+    box-shadow: 0px 0px 5px 1px rgb(33, 36, 236);
+    border: 1px solid rgb(10, 102, 194);
     text-shadow: none;
 }
 
@@ -118,6 +126,7 @@ a {
 
 #insta {
     text-shadow: 1px 1px 4px #111111;
+    /* font-size: clamp(25px, 4vw, 28px); */
     background: linear-gradient(177deg, rgb(111, 49, 255), rgb(132, 0, 255), rgb(207, 15, 255), rgb(255, 14, 14), #f36235, rgb(231, 231, 0), #ecca58);
 }
 
@@ -287,6 +296,12 @@ a {
     }
 }
 
+@media (max-width:296px) {
+    #insta {
+        letter-spacing: normal;
+    }
+}
+
 
 @media (max-height:783px) {
 
@@ -311,4 +326,5 @@ a {
         font-size: 20px;
         height: 37px;
     }
+
 }
