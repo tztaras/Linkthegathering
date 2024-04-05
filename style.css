@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;800;900&display=swap');
+
 html body {
     height: 100vh;
     background: rgb(67, 137, 139);
@@ -36,9 +38,11 @@ h1 {
     text-align: center;
     color: aliceblue;
     text-shadow: 1px 2px 5px #000000;
+    letter-spacing: 2px;
     /* responsive font */
-    font-size: clamp(30px, 4vw, 42px);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: clamp(34px, 7vw, 44px);
+    font-family: "Alegreya Sans",
+        sans-serif;
 }
 
 .photobox {
@@ -76,9 +80,10 @@ h1 {
     box-shadow: 0px 0px 5px 1px rgb(83, 78, 78);
     font-size: 28px;
     font-weight: 900;
-    line-height: 1.9;
+    /* line-height: 28px; */
     letter-spacing: 2px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Alegreya Sans",
+        sans-serif;
     border-radius: 25px;
     transition: opacity 5ms;
 
@@ -321,6 +326,7 @@ a {
 
     h1 {
         padding-top: 40px;
+        font-size: 32px;
     }
 
     .link {
