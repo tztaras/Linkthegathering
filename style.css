@@ -83,7 +83,7 @@ h1 {
     font-family: "Alegreya Sans",
         sans-serif;
     border-radius: 25px;
-    transition: opacity 5ms;
+    transition: opacity 2s;
 
 }
 
