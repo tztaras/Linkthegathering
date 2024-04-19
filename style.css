@@ -153,6 +153,10 @@ a {
 }
 
 
+::-webkit-scrollbar-thumb {
+    background: rgb(67, 137, 139);
+}
+
 .boxforsmoke {
     margin-left: -58px;
     position: relative;
